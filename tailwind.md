@@ -10,15 +10,16 @@
 - npx tailwindcss init
 
 3. Modify the tailwind config file with the following basic code
-```/** @type {import('tailwindcss').Config} */
+```
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {},
   },
   plugins: [],
-}```
-
+}
+```
 4. Add the Tailwind directives to your CSS
 @tailwind base;
 @tailwind components;
@@ -29,17 +30,22 @@ module.exports = {
 
 1. Apply Tailwind classes directly in your HTML
 
-```<div class="bg-blue-500 text-white p-4 rounded-lg shadow-md"> This is a styled div using Tailwind CSS </div>```
+```
+<div class="bg-blue-500 text-white p-4 rounded-lg shadow-md"> This is a styled div using Tailwind CSS </div>
+```
 
 2. Use Tailwind's responsive design classes
 
-```<div class="text-sm md:text-base lg:text-lg">
+```
+<div class="text-sm md:text-base lg:text-lg">
   This text changes size on different screen sizes
-</div>```
+</div>
+```
 
 3. Customize your design by extending the Tailwind config
 
-```module.exports = {
+```
+module.exports = {
   theme: {
     extend: {
       colors: {
@@ -47,13 +53,16 @@ module.exports = {
       },
     },
   },
-}```
+}
+```
 
 4. Use the @apply directive in your CSS to extract common utility patterns
 
-```.btn-primary {
+```
+.btn-primary {
   @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
-}```
+}
+```
 
 ## Troubleshooting
 
