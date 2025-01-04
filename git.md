@@ -1,0 +1,3 @@
+- SSH key for GitHub
+- Update git email, and username
+- Basic usages
