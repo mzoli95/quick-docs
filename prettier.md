@@ -6,15 +6,18 @@
    - Use the shortcut: `Ctrl + Shift + X` (Windows/Linux) or `Cmd + Shift + X` (macOS)
    - Search for "Prettier - Code formatter"
    - Click "Install"
+      ![image](https://github.com/user-attachments/assets/33b005fc-c5e7-4bbf-9157-71ef709205c9)
 
 2. Set Prettier as the default formatter
    - Open Settings: `Ctrl + ,` (Windows/Linux) or `Cmd + ,` (macOS)
    - Search for "Default Formatter"
    - Select "Prettier - Code formatter" from the dropdown
+     ![image](https://github.com/user-attachments/assets/7c78a7a2-3094-449f-a598-7ac8caf23101)
 
 3. Enable format on save
    - In Settings, search for "Format on save"
    - Check the box next to "Editor: Format On Save"
+     ![image](https://github.com/user-attachments/assets/b991a018-b988-434f-8e35-307a1b6fc9af)
 
 ## Usage
 
